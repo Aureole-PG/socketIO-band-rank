@@ -1,0 +1,17 @@
+{
+  "name": "02_band_names",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "react"
+  ],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
