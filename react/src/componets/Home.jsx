@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { AddBands } from "./AddBands";
 import { ListBand } from "./listBand";
 import { SocketContex } from "../services/socketContext";
+import Charts from "./charts";
 const Home = () => {
   const { online } = useContext(SocketContex);
 
@@ -30,6 +31,9 @@ const Home = () => {
           <div className="col s12">
             <AddBands />
           </div>
+        </div>
+        <div className="row">
+          <Charts />
         </div>
       </div>
     </div>
